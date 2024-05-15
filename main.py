@@ -15,7 +15,7 @@ import re
 from dotenv import load_dotenv
 
 load_dotenv()
-bing_subscription_key = os.getenv("b69720ecb09d4f4cbd77b39c3269c570")
+bing_subscription_key = os.getenv("BING_SUBSCRIPTION_KEY")
 openai_api_key = os.getenv("OPENAI_API_KEY")
 langchain_api_key = os.getenv("LANGCHAIN_API_KEY")
 
